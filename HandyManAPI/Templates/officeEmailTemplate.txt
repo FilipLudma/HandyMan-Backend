@@ -1,0 +1,30 @@
+<html>
+<body style=”color:grey; font-size:15px;”>
+<font face=”Helvetica, Arial, sans-serif”>
+
+<div style=”position:absolute; height:100px; width:600px; background-color:0d1d36; padding:30px;”>
+<img src=”logo” />
+</div>
+
+<br/>
+<br/>
+
+<div style=”background-color: #ece8d4; width:600px; height:200px; padding:30px; margin-top:30px;”>
+
+<p>Nova objednavka parametre:</p>
+<p>
+
+Meno: {0}<br>
+Priezvisko: {1}<br>
+Adresa: {2}<br>
+Telefon: {3}<br>
+Email: {4}<br>
+Kategoria: {5}<br>
+PodKategoria: {6}<br>
+Popis: {7}<br>
+
+<br/>
+<p>Thank you</p>
+</div>
+</body>
+</html>

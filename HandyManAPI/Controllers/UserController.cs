@@ -37,12 +37,12 @@ namespace WebApi.Controllers
 
         [AllowAnonymous]
         [HttpPost]
-        public IActionResult Authenticate([FromBody]UserDto userDto)
+        public JsonResult Authenticate([FromBody]UserDto userDto)
         {
             var user = _userRepository.Authenticate(userDto.EmailAddress, userDto.Password);
 
             if (user == null)
-                return Unauthorized();
+                return Json(Unauthorized());
 
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.ASCII.GetBytes(_appSettings.Secret);
@@ -59,7 +59,7 @@ namespace WebApi.Controllers
             var tokenString = tokenHandler.WriteToken(token);
 
             // return basic user info (without password) and token to store client side
-            return Ok(new
+            return Json(new
             {
                 Id = user.Id,
                 EmailAddress = user.EmailAddress,
@@ -71,7 +71,7 @@ namespace WebApi.Controllers
 
         [AllowAnonymous]
         [HttpPost]
-        public IActionResult Register([FromBody]UserDto userDto)
+        public JsonResult Register([FromBody]UserDto userDto)
         {
             // map dto to entity
             var user = Mapper.Map<UserRecord>(userDto);
@@ -80,14 +80,21 @@ namespace WebApi.Controllers
             {
                 // save 
                 _userRepository.Create(user, userDto.Password);
-                return Ok();
+                return Json(Ok());
             }
             catch (AppException ex)
             {
                 // return error message if there was an exception
-                return BadRequest(ex.Message);
+                return Json(BadRequest(ex.Message));
             }
         }
+
+        [HttpGet]
+        public JsonResult Authenticated()
+        {
+            return Json(Ok());
+        }
+
 
         [HttpGet]
         public IActionResult GetAll()

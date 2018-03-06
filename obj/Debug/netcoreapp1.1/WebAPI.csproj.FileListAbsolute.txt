@@ -1,0 +1,10 @@
+C:\Repos\Others\Handyman\Handyman.API\bin\Debug\netcoreapp1.1\WebAPI.deps.json
+C:\Repos\Others\Handyman\Handyman.API\bin\Debug\netcoreapp1.1\WebAPI.runtimeconfig.json
+C:\Repos\Others\Handyman\Handyman.API\bin\Debug\netcoreapp1.1\WebAPI.runtimeconfig.dev.json
+C:\Repos\Others\Handyman\Handyman.API\bin\Debug\netcoreapp1.1\WebAPI.dll
+C:\Repos\Others\Handyman\Handyman.API\bin\Debug\netcoreapp1.1\WebAPI.pdb
+C:\Repos\Others\Handyman\Handyman.API\obj\Debug\netcoreapp1.1\WebAPI.csproj.CoreCompileInputs.cache
+C:\Repos\Others\Handyman\Handyman.API\obj\Debug\netcoreapp1.1\WebAPI.AssemblyInfoInputs.cache
+C:\Repos\Others\Handyman\Handyman.API\obj\Debug\netcoreapp1.1\WebAPI.AssemblyInfo.cs
+C:\Repos\Others\Handyman\Handyman.API\obj\Debug\netcoreapp1.1\WebAPI.dll
+C:\Repos\Others\Handyman\Handyman.API\obj\Debug\netcoreapp1.1\WebAPI.pdb

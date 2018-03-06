@@ -115,6 +115,7 @@ namespace HandyManAPI
             // // Shows UseCors with CorsPolicyBuilder.
             // app.UseCors(builder =>
             //     builder.WithOrigins(_authorityUrl).AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin().AllowCredentials());
+            app.UseAuthentication();
             app.UseMvc();
 
             DbInitializer.Initialize(context);

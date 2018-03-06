@@ -28,3 +28,13 @@ C:\Repos\HandyMan\HandyManAPI\obj\Debug\netcoreapp2.0\HandyManAPI.AssemblyInfoIn
 C:\Repos\HandyMan\HandyManAPI\obj\Debug\netcoreapp2.0\HandyManAPI.AssemblyInfo.cs
 C:\Repos\HandyMan\HandyManAPI\obj\Debug\netcoreapp2.0\HandyManAPI.dll
 C:\Repos\HandyMan\HandyManAPI\obj\Debug\netcoreapp2.0\HandyManAPI.pdb
+C:\Repos\Others\Handyman\Handyman.API\HandyManAPI\bin\Debug\netcoreapp2.0\HandyManAPI.deps.json
+C:\Repos\Others\Handyman\Handyman.API\HandyManAPI\bin\Debug\netcoreapp2.0\HandyManAPI.runtimeconfig.json
+C:\Repos\Others\Handyman\Handyman.API\HandyManAPI\bin\Debug\netcoreapp2.0\HandyManAPI.runtimeconfig.dev.json
+C:\Repos\Others\Handyman\Handyman.API\HandyManAPI\bin\Debug\netcoreapp2.0\HandyManAPI.dll
+C:\Repos\Others\Handyman\Handyman.API\HandyManAPI\bin\Debug\netcoreapp2.0\HandyManAPI.pdb
+C:\Repos\Others\Handyman\Handyman.API\HandyManAPI\obj\Debug\netcoreapp2.0\HandyManAPI.csproj.CoreCompileInputs.cache
+C:\Repos\Others\Handyman\Handyman.API\HandyManAPI\obj\Debug\netcoreapp2.0\HandyManAPI.AssemblyInfoInputs.cache
+C:\Repos\Others\Handyman\Handyman.API\HandyManAPI\obj\Debug\netcoreapp2.0\HandyManAPI.AssemblyInfo.cs
+C:\Repos\Others\Handyman\Handyman.API\HandyManAPI\obj\Debug\netcoreapp2.0\HandyManAPI.dll
+C:\Repos\Others\Handyman\Handyman.API\HandyManAPI\obj\Debug\netcoreapp2.0\HandyManAPI.pdb

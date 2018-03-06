@@ -57,13 +57,9 @@ namespace HandyManAPI.Schema.Context
 
             var subCategories4 = new OrderSubCategory[]
             {
-                new OrderSubCategory{ SubCategoryName="Prekáblovanie internetu"},
-                new OrderSubCategory{ SubCategoryName="Nastavenie routrov"},
-                new OrderSubCategory{ SubCategoryName="Nastavenie tlačiarní"},
-                new OrderSubCategory{ SubCategoryName="Nastavenie audio techniky"},
-                new OrderSubCategory{ SubCategoryName="Prepájanie bezdrôtových zariadení"},
-                new OrderSubCategory{ SubCategoryName="Inteligentna domácnost"},
-                new OrderSubCategory{ SubCategoryName="Štrukturovanie kabeláže"}
+                new OrderSubCategory{ SubCategoryName="Detské oslavy"},
+                new OrderSubCategory{ SubCategoryName="Narodeninové oslavy"},
+                new OrderSubCategory{ SubCategoryName="Rozlúčky so slobodou"}
             };
 
             var subCategories5 = new OrderSubCategory[]
@@ -112,9 +108,9 @@ namespace HandyManAPI.Schema.Context
                     Description = "Načo by ste strácali Váš čas kosením záhrady, urobíme to za Vás", 
                     OrderSubCategories = subCategories3 },
                 new OrderCategory { 
-                    CategoryName="Bezdrotáreň",
+                    CategoryName="Organizáreň",
                     CategoryType = 4, 
-                    Description = "Potrebujete nastaviť router alebo zmeniť heslo? My si s tým vieme poradiť! ",
+                    Description = "Nemáte čas na zorganizovanie podujatí či osláv? My si s tým vieme poradiť! ",
                     OrderSubCategories = subCategories4 },
                 new OrderCategory { 
                     CategoryName="Sťahováreň", 
